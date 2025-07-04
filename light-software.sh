@@ -31,6 +31,7 @@ sudo $pkmgr glow
 sudo $pkmgr nemo
 sudo $pkmgr virtualbox-utils-guest
 sudo $pkmgr arc-gtk-theme-eos
+sudo $pkmgr sxhkd
 
 yay -S --noconfirm --needed ungoogled-chromium-bin
 yay -S --noconfirm --needed paru

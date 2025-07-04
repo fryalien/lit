@@ -1,0 +1,56 @@
+# Launch terminal
+alt + Return
+    alacritty
+
+# Close focused window with Super + Q
+super + q
+	xdotool getactivewindow windowkill
+
+# Reload sxhkd
+super + Escape
+    pkill -USR1 -x sxhkd
+
+
+# Launch browser
+alt + w
+    chromium
+
+# Launch file manager
+alt + e
+    nemo
+
+#########################
+#     System Volume     #
+#########################
+
+# Volume up
+XF86AudioRaiseVolume
+    pamixer -i 5
+
+# Volume down
+XF86AudioLowerVolume
+    pamixer -d 5
+
+# Mute/unmute
+XF86AudioMute
+    pamixer -t
+
+#########################
+#     Screenshots       #
+#########################
+
+# Fullscreen screenshot
+Print
+    scrot ~/Screenshots/screenshot_$(date +"%Y-%m-%d-%T")
+
+# Area screenshot
+shift + Print
+    flameshot gui
+
+#########################
+#     Custom Scripts    #
+#########################
+
+# Lock screen (example)
+alt + l
+    i3lock -c 000000
