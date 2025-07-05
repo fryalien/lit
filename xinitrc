@@ -52,15 +52,27 @@ fi
 
 # MY STUFF
 
+# Other things
+export SSH_AUTH_SOCK
+export XDG_SESSION_TYPE=X11
+export GDK_BACKEND=x11
+export GTK_THEME="Arc-Dark"
+export QT_QPA_PLATFORMTHEME=gtk
+# Fix misbehaving Java apps
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # keyboard
-setxbmap us &
+setxbmap -layout us &
 sxhkd &
 
 # screen
 xrandr --output Virtual-1 --mode 1920x1080
 
 # compositor
-#picom -f &
+picom -f &
+
+#network
+#nm-applet
 
 # vritualbox
 /usr/bin/VBoxClient --clipboard &
@@ -68,6 +80,8 @@ xrandr --output Virtual-1 --mode 1920x1080
 
 # wallpaper
 nitrogen --restore &
+
+xrdb -merge ~/.Xresources
 
 # dwm always run
 #while true; do
