@@ -1,9 +1,11 @@
 #!/bin/bash
 
-mkdir ~/.local/wallpapers
-
 mkdir ~/.config/fish/
 
-cp wallpapers ~/.local/wallpapers
+cp -r wallpapers ~/.local/
 
 cp config.fish ~/.config/fish/
+
+sudo chsh -s /usr/bin/fish
+
+source ~/.config/fish/config.fish

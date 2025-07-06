@@ -3,6 +3,10 @@
 yay -s ungoogled-chromium-bin
 ```
 
+```
+chrome://ungoogled-first-run/
+```
+
 >Ublock origin
 
 https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
