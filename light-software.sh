@@ -21,10 +21,11 @@ sudo $pkmgr ncdu
 sudo $pkmgr nemo
 sudo $pkmgr neovim
 sudo $pkmgr newsboat
-sudo $pkmgr nsxiv
+sudo $pkmgr nsxiv libheif libid3tag libjxl libspectre libwebp openjpeg2
 sudo $pkmgr pavucontrol
 sudo $pkmgr ripgrep
 sudo $pkmgr scrot
+sudo $pkmgr shotgun hacksaw
 sudo $pkmgr sxhkd
 sudo $pkmgr tldr
 sudo $pkmgr tmux
@@ -32,6 +33,7 @@ sudo $pkmgr virtualbox-utils-guest
 sudo $pkmgr yt-dlp
 sudo $pkmgr zathura zathura-cb zathura-ps zathura-pdf-mupdf zathura-djvu
 sudo $pkmgr zoxide
+sudo $pkmgr sublime-text-4
 
 yay -S --noconfirm --needed ungoogled-chromium-bin
 yay -S --noconfirm --needed paru
