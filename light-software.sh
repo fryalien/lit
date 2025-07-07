@@ -2,6 +2,7 @@
 pkmgr="pacman -S --noconfirm --needed"
 
 sudo $pkmgr arc-gtk-theme-eos
+sudo $pkmgr alacritty
 sudo $pkmgr bat
 sudo $pkmgr btop
 sudo $pkmgr eza
@@ -33,8 +34,8 @@ sudo $pkmgr virtualbox-guestutils
 sudo $pkmgr yt-dlp
 sudo $pkmgr zathura zathura-cb zathura-ps zathura-pdf-mupdf zathura-djvu
 sudo $pkmgr zoxide
-sudo $pkmgr sublime-text-4
 
 yay -S --noconfirm --needed ungoogled-chromium-bin
 yay -S --noconfirm --needed paru
+yay -S --noconfirm --needed sublime-text-4
 
