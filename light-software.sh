@@ -29,7 +29,7 @@ sudo $pkmgr shotgun hacksaw
 sudo $pkmgr sxhkd
 sudo $pkmgr tldr
 sudo $pkmgr tmux
-sudo $pkmgr virtualbox-utils-guest
+sudo $pkmgr virtualbox-guestutils
 sudo $pkmgr yt-dlp
 sudo $pkmgr zathura zathura-cb zathura-ps zathura-pdf-mupdf zathura-djvu
 sudo $pkmgr zoxide
