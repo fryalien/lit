@@ -4,7 +4,7 @@
 
 cp -r wallpapers ~/.local/
 
-sudo chsh -s /usr/bin/fish y
+chsh -s /usr/bin/fish
 
 cp config.fish ~/.config/fish/
 
