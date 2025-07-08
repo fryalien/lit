@@ -1,8 +1,10 @@
 #!/bin/bash
 
-1-install.sh
+./light-software.sh
 
 cp -r wallpapers ~/.local/
+
+mkdir -p ~/.config/fish/
 
 cp config.fish ~/.config/fish/
 
