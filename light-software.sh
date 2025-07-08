@@ -2,6 +2,8 @@
 pkmgr="pacman -S --noconfirm --needed"
 
 sudo $pkmgr arc-gtk-theme-eos
+sudo $pkmgr kitty
+sudo $pkmgr foot
 sudo $pkmgr alacritty
 sudo $pkmgr bat
 sudo $pkmgr btop
