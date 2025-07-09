@@ -10,7 +10,6 @@ super + q
 super + Escape
     pkill -USR1 -x sxhkd
 
-
 # Launch browser
 alt + w
     chromium
