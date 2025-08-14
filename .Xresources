@@ -1,4 +1,4 @@
-*.font: Hack:size=11.5
+*.font: Hack:size=11
 
 *.background: #2f343f
 *.foreground: #e1e3e7
